@@ -1,0 +1,66 @@
+.casesWrapper {
+    display: flex;
+}
+.casewrapper {
+    margin: 20px 8px;
+}
+.caseintrowrapper {
+    display: flex;
+    align-items: flex-start;
+    margin: 40px 0px;
+}
+.arrcasest {
+    height: 40px;
+    rotate: 135deg;
+    margin: 20px;
+}
+.linktoCase {
+    display: flex;
+    align-items: center;
+}
+.linkarrow {
+    height: 30px;
+    margin-left: 20px;
+    rotate: 45deg;
+}
+.casePara {
+    padding: 8px 0px;
+}
+.casestHeder {
+    display: flex;
+    align-items: center;
+}
+.caseint-right {
+    margin-top: 20px;
+}
+.caseImg{
+    width: 630px;
+    height: 224px;
+    object-fit: cover;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+.caseimage {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.testSqure {
+    background-color: var(--color-Background);
+    font-size: var(--font-Subtxt);
+}
+.txtfortest {
+    color: var(--color-txt);
+}
+
+@media only screen and (max-width: 1200px) {
+    .caseintrowrapper {
+      flex-wrap: wrap;
+    }
+    .caseImg {
+        width: 100%;
+    }
+  }
+  

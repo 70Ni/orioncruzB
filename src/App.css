@@ -1,38 +1,100 @@
+/* constants */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap');
+:root {
+  --primary-color: #862df4;
+  --Box-color: #f6f0ec;
+  --hilight-color: #ffc95f;
+
+  --font-Introtxt: 7.5rem; /* 120px */
+  --font-Header: 5rem; /* 80px */
+  --font-Subtxt: 2rem; /* 32px */
+  --font-Para: 1.25rem; /* 20px */
+  --font-Footer: 0.875rem; /* 14px */
+
+  --Border-radius: 2.5rem; /* 40px */
+  --Border-radius-none: 0rem;
+
+  --typo-Satoshi-Black: "Satoshi Black";
+  --typo-Satoshi-Bold: "Satoshi Bold";
+  --typo-Satoshi-Medium: "Satoshi Medium";
+  --typo-Satoshi-Regular: "Satoshi Regular";
+
+  --typo-Inter-Regular: "Inter Regular";
+}
+
+.theme-light {
+  --color-Background: #ffffff;
+  --color-text: #0e100f;
+}
+.theme-dark {
+  --color-Background: #000;
+  --color-text: #ffffff;
+}
+.font-typs {
+  --font-Introtxt: 7.5rem;
+  --font-Header: 5rem;
+  --font-Subtxt: 2rem;
+  --font-Introtxt: 7.5rem;
+  --font-Para: 1.25rem;
+  --font-Footer: 0.875rem;
+}
+
+@font-face {
+  font-family: "Satoshi Black";
+  font-style: Black;
+  font-weight: Black;
+  src: local("Satoshi Black"),
+    url("../src/Fonts/satoshi-cufonfonts-webfont/Satoshi-Black.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Satoshi Bold";
+  font-style: Bold;
+  font-weight: Bold;
+  src: local("Satoshi Bold"),
+    url("../src/Fonts/satoshi-cufonfonts-webfont/Satoshi-Bold.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "Satoshi Medium";
+  font-style: Medium;
+  font-weight: Medium;
+  src: local("Satoshi Medium"),
+    url("../src/Fonts/satoshi-cufonfonts-webfont/Satoshi-Medium.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "Satoshi Regular";
+  font-style: Regular;
+  font-weight: Regular;
+  src: local("Satoshi Regular"),
+    url("../src/Fonts/satoshi-cufonfonts-webfont/Satoshi-Regular.woff")
+      format("woff");
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  background-color: var(--color-Background);
 }
-
-.App-link {
-  color: #61dafb;
+.MainSec {
+  max-width: 1400px;
+  /* background-color: #000912; */
+  margin: 0px 40px;
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+body {
+  background-color: #000912;
+}
+@media only screen and (max-width: 1025px) {
+  .MainSec {
+    margin: 0px 40px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media only screen and (max-width: 425px) {
+  .MainSec {
+    margin: 0px 20px;
   }
 }

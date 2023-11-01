@@ -1,0 +1,16 @@
+
+.caseBanlouter {
+background-color: #F6F0EC;
+display: flex;
+align-items: flex-start;
+border-radius: var(--Border-radius);
+padding: 80px 0px 0px 80px;
+position: relative;
+}
+
+.caseBannerImage {
+    width: 542px;
+    height: auto;
+    margin-left: 120px;
+    align-self: flex-end;
+}

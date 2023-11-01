@@ -1,0 +1,11 @@
+.floatimge {
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+  border-radius: var(--Border-radius);
+  margin-right: 14px;
+}
+.floatProjectwrapper {
+    display: flex;
+    overflow: visible;
+}

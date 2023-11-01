@@ -1,0 +1,70 @@
+.chatbutton {
+  display: flex;
+  padding: 14px 32px;
+  margin-right: 20px;
+  align-items: center;
+  border: 1px solid #bfbfbf;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.chatbutton:hover {
+  background-color: #19bd0032;
+  transition-duration: 0.2s;
+  border: 1px solid #1abd00;
+}
+.rightwraprM {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 52px;
+}
+.iconfreelance {
+  height: 24px;
+  width: auto;
+}
+
+.connect {
+  display: flex;
+  align-items: center;
+}
+.online {
+  display: inline;
+  width: 10px;
+  height: 10px;
+  margin: 14px;
+  background-color: #1abd00;
+  border-radius: 20px;
+}
+.chattxt {
+  font-size: 1.5rem;
+}
+.connPara {
+  max-width: 800px;
+}
+.conneHeader {
+  max-width: 1000px;
+  margin: 14px 0px;
+  margin-left: 180px;
+}
+@media only screen and (max-width: 1025px) {
+  .conneHeader {
+    margin-left: 80px;
+  }
+}
+@media only screen and (max-width: 752px) {
+  .rightwraprM {
+    flex-wrap: wrap-reverse;
+  }
+  .conneHeader {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 342px) {
+  .connect {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .chatbutton{
+    margin-right: 0px;
+  }
+}

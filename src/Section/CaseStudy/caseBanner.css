@@ -1,0 +1,36 @@
+.casecover {
+    background-color: white;
+}
+.case-studycard {
+    padding: 40px 20px;
+    background-color: #F6F0EC;
+    border-radius: 40px;
+    margin: 140px 0px;
+    display: flex;
+}
+.casebanner {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+}
+.caseBaLeft {
+    position: relative;
+    display: block;
+    width: 340px;
+}
+.caseBaHeader {
+    margin-right: 80px;
+    display: block;
+}
+.casebanright {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.casebanlink {
+    width: fit-content;
+}

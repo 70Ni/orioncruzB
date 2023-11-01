@@ -1,0 +1,48 @@
+.outer-achiev {
+  margin: 50px 0px;
+}
+.ValueContainer {
+  display: flex;
+  margin: 40px 0px;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.archValues {
+  margin-right: 40px;
+  min-width: 210px;
+}
+.EmpzTxt {
+  color: #ffc95f;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.num {
+  color: #fff;
+  font-family: Inter;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+@media only screen and (max-width: 1025px) {
+  .ValueContainer {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 595px) {
+  .Header {
+    font-size: 34px;
+  }
+  .ValueContainer {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .ValueContainer {
+    justify-content: flex-start;
+  }
+}

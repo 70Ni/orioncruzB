@@ -1,0 +1,28 @@
+.clientsection {
+    display: flex;
+    align-items: center;
+    margin: 120px 0px;
+    overflow: hidden;
+}
+.feedhead {
+    display: flex;
+    justify-content: space-between;
+}
+.userwrap {
+    display: flex;
+    align-items: center;
+}
+.Clintlogo {
+    height: 30px;
+    padding: 0px 20px;
+}
+.rating {
+    padding: 14px 20px;
+}
+.staractive {
+    margin: 4px;
+}
+.starPassive {
+    opacity: 0.2;
+    margin: 4px;
+}

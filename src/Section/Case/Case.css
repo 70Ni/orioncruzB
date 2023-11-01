@@ -1,0 +1,109 @@
+.case-outer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.caseLeft {
+  padding-right: 14px;
+}
+.aboutUs {
+  padding: 20px 40px;
+  background-color: #f6f0ec;
+  width: 415px;
+  text-align: center;
+  border-radius: 40px;
+  margin-bottom: 14px;
+}
+.dark-txt {
+  color: #000912;
+}
+.bold {
+  font-weight: 800;
+}
+.case-image {
+  width: 415px;
+  height: auto;
+  border-radius: 40px;
+}
+
+.OurStoryBox {
+  padding: 40px;
+  background-color: white;
+  border-radius: 40px;
+}
+.storyheader {
+  grid-area: storyheader;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000912;
+}
+.paraGrid {
+  grid-area: ParaGrid;
+}
+
+.Quotes {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  grid-area: Quotes;
+}
+.arrow {
+  margin-right: 20px;
+  height: 40px;
+}
+.storyBxcontent {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "storyheader ParaGrid ParaGrid"
+    "storyheader ParaGrid ParaGrid"
+    "Quotes ParaGrid ParaGrid";
+}
+
+@media only screen and (max-width: 1132px) {
+
+  .storyBxcontent {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+      "storyheader storyheader storyheader"
+      "ParaGrid ParaGrid ParaGrid"
+      "Quotes Quotes Quotes";
+  }
+}
+@media only screen and (max-width: 880px) {
+  .case-outer-flex {
+    flex-wrap: wrap;
+  }
+  .OurStoryBox {
+    margin-top: 14px;
+  }
+  .caseLeft {
+    width: 100%;
+    padding-right: none;
+  }
+  .aboutUs {
+    width: 100%;
+  }
+  .case-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+}
+
+@media only screen and (max-width: 425px) {
+  .case-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .storyBxcontent {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+      "storyheader storyheader storyheader"
+      "ParaGrid ParaGrid ParaGrid"
+      "Quotes Quotes Quotes";
+  }
+}

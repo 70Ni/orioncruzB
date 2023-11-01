@@ -1,0 +1,68 @@
+.processwrapper {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.procSection {
+  display: flex;
+  margin: 80px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+.procSection:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.proceshedrImg {
+  height: 280px;
+  border-radius: var(--Border-radius-none);
+  width: 100%;
+  object-fit: cover;
+  margin: 40px 0px;
+}
+.proctext:nth-child(odd) {
+  margin-left: 120px;
+}
+.proctext:nth-child(even) {
+  margin-right: 80px;
+}
+.processImage {
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
+  margin-top: 18px;
+}
+@media only screen and (max-width: 1025px) {
+  .proctext:nth-child(odd) {
+    margin-right: 20px;
+  }
+  .procSection {
+    align-items: flex-start;
+    margin: 20px 0px;
+  }
+  .proctext:nth-child(even) {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .processImage {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .procSection {
+    flex-direction: column;
+  }
+  .processImage {
+    width: 100%;
+    height: auto;
+  }
+  .procSectionEven {
+    flex-direction: column-reverse;
+  }
+  .proctext:nth-child(odd) {
+    margin-right: 0px;
+  }
+  .proctext:nth-child(even) {
+    margin-left: 0px;
+  }
+}
+

@@ -1,0 +1,71 @@
+.outer-projects {
+  margin: 158px 0px;
+  position: relative;
+}
+.headerproje {
+  position: relative;
+  top: 0px;
+}
+
+.projectSelector {
+  margin: 20px 0px;
+}
+.selecbuttonwrp {
+    position: relative;
+    top: -150px;
+    z-index: 5;
+}
+.selecbuttocont {
+    position: absolute;
+}
+.seleccover {
+    display: flex;
+}
+.selectTxt {
+  font-size: 18px;
+  margin-right: 8px;
+  z-index: 2;
+  color: black;
+  padding: 24px 40px;
+  width: fit-content;
+  border-radius: 80px;
+  color: white;
+  background-color: #000912;
+  border: 1px solid #f6f0ec;
+}
+.selectTxt:hover {
+  color: #000912;
+  background-color: #f6f0ec;
+  border: 1px solid #f6f0ec;
+  transition-duration: 0.5s;
+}
+.SwipSection {
+  position: relative;
+  height: 300vh;
+}
+.PrjectBox {
+  margin: 12px 0px;
+  display: flex;
+  position: sticky;
+  display: flex;
+  justify-content: flex-start;
+  top: 250px;
+  overflow: hidden;
+}
+.motion {
+  display: flex;
+}
+.img-project {
+  width: 700px;
+  height: 500px;
+  border-radius: 40px;
+  margin-right: 40px;
+}
+.linkContainer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.moreLink {
+  margin: 20px;
+}

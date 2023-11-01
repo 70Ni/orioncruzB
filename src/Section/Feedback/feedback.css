@@ -1,0 +1,29 @@
+.feedbackcontent {
+  display: flex;
+  margin: 32px 0px;
+}
+.feedbackbox {
+  padding: 40px;
+}
+.userimg {
+  margin-right: 20px;
+}
+.feedhead {
+  display: flex;
+  align-items: center;
+}
+.feedusrname,
+.feedusrind {
+  font-size: 20px;
+  color: white;
+  font-family: "Inter", Courier, monospace;
+  font-weight: 600;
+}
+.feedusrind {
+  font-size: 14px;
+  font-weight: 400;
+}
+.feedbacktxt {
+  text-align: left;
+  padding: 14px 0px;
+}

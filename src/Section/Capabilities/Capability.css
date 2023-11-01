@@ -1,0 +1,119 @@
+.capbilitieswrapper {
+    display: flex;
+}
+.captag {
+    padding: 18px 52px;
+    border-radius: 40px;
+    width: fit-content;
+    margin: 4px;
+    color: #000912;
+    background-color: #e4c6b2;
+    /* border: 1px solid #000912; */
+
+    font-weight: 500;
+    font-family: 'Inter', Courier, monospace;
+    font-size: 20px;
+}
+.captagCollection {
+    display: flex;
+    flex-wrap: wrap;
+}
+.capLeft {
+    position: relative;
+}
+.captagBox {
+    padding: 38px;
+    background-color: #F6F0EC;
+    border-radius: 40px;
+    margin: 0px 14px;
+}
+.capimgtxt {
+    position: absolute;
+    top:20%;
+    left:20%;
+    rotate: -90deg;
+}
+.capbox {
+    height: 100%;
+    object-fit: cover;
+}
+.categBox {
+    padding: 80px 32px;
+    background-color: #F6F0EC;
+    border-radius: 40px;
+    margin-top: 14px;
+    margin-right: 14px;
+}
+.categorywrapr {
+    display: flex;
+}
+.buttoncontainte {
+    display: flex;
+    justify-content: center;
+}
+.Catebutton {
+    padding: 34px 40px;
+    border-radius: 40px;
+    margin: 0px;
+    font-size: 32px;
+    width: 100%;
+    background-color: #8234E1;
+    color: white;
+}
+.Catebutton:hover {
+    color: white;
+    background-color: #000912;
+}
+.Catebutton::after {
+    background-color: #000912;
+}
+
+@media only screen and (max-width: 904px) {
+    .capbilitieswrapper,.categorywrapr {
+      flex-wrap: wrap;
+    }
+    .captagBox {
+        margin: 0px;
+    }
+    .categBox {
+        margin-right: 0px;
+    }
+    .capLeft {
+        width: 100%;
+    }
+    .capbox {
+        margin-bottom: 14px;
+        height: 300px;
+        width: 100%;
+    }
+    .capimgtxt {
+        rotate: 0deg;
+    }
+  }
+  @media only screen and (max-width: 584px) {
+    .captag {
+        width:100%;
+        text-align: center;
+        margin: 4px 0px;
+    }
+    .captagBox {
+        padding: 32px 24px;
+    }
+    .ValueContainer {
+        justify-content: center;
+    }
+    .Values {
+        margin-right: 0px;
+    }
+    .outerwrapper {
+        padding: 80px 0px;
+    }
+  }
+  @media only screen and (max-width: 584px) {
+    .categBox{
+        padding: 40px 20px;
+    }
+    .captagBox {
+        padding: 40px 20px;
+    }
+  }
